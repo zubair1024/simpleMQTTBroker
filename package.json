@@ -1,0 +1,22 @@
+{
+  "name": "simplemqttbroker",
+  "version": "1.0.0",
+  "description": "logging and testing mqtt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zubair1024/simpleMQTTBroker.git"
+  },
+  "author": "Zubair Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zubair1024/simpleMQTTBroker/issues"
+  },
+  "homepage": "https://github.com/zubair1024/simpleMQTTBroker#readme",
+  "dependencies": {
+    "mqtt": "^2.13.1"
+  }
+}
