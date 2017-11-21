@@ -1,0 +1,18 @@
+{
+  "name": "mosca-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npm install mosca bunyan -g"
+  },
+  "author": "Zubair Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "daemon": "^1.1.0",
+    "debug": "^3.1.0",
+    "mosca": "^2.7.0",
+    "mqtt": "^2.14.0"
+  }
+}
