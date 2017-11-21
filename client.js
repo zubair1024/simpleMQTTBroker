@@ -8,7 +8,7 @@ client.on('connect', function () {
         console.log(err);
         console.log(granted);
     })
-    client.publish('solaire', 'Hello mqtt', {
+    client.publish('solaire', 'Hello mqtt!!!!', {
         'qos': 1
     });
 });
