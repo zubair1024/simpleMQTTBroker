@@ -1,9 +1,11 @@
 var mqtt = require('mqtt')
-var client = mqtt.connect('mqtt://test.mosquitto.org')
+var client = mqtt.connect('mqtt://m23.cloudmqtt.com')
 
 client.on('connect', function () {
     client.subscribe('solaire', {
-        'qos': 1
+        'qos': 1,
+        'username': 'whymzouw',
+        'password': 'qCmHSepEBmVr'
     }, function (err, granted) {
         console.log(err);
         console.log(granted);
