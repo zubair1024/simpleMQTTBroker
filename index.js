@@ -16,7 +16,7 @@ const logger = winston.createLogger({
 
 
 client.on('connect', function () {
-  client.subscribe('solaire', {
+  client.subscribe('solaire/a4ae9a00aea8', {
     'qos': 1,
     'username': 'whymzouw',
     'password': 'qCmHSepEBmVr',
